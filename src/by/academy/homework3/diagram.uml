@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="160.49999999999994" y="272.0">by.academy.homework3.Engine</node>
+    <node x="839.0" y="920.0">by.academy.homework3.Human</node>
+    <node x="332.49999999999994" y="326.0">by.academy.homework3.Wheel</node>
+    <node x="62.899456521739125" y="147.0">by.academy.homework3.ITank</node>
+    <node x="10.5" y="326.0">by.academy.homework3.Tank</node>
+    <node x="457.24999999999994" y="147.0">by.academy.homework3.Lock</node>
+    <node x="493.49999999999994" y="283.0">by.academy.homework3.Door</node>
+    <node x="1039.4510869565217" y="655.0">by.academy.homework3.Passenger</node>
+    <node x="819.5" y="315.0">by.academy.homework3.ICar</node>
+    <node x="646.5" y="315.0">by.academy.homework3.Seat</node>
+    <node x="885.4510869565217" y="644.0">by.academy.homework3.Garage</node>
+    <node x="654.0244565217391" y="0.0">by.academy.homework3.ILock</node>
+    <node x="414.99999999999994" y="503.0">by.academy.homework3.Car</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="by.academy.homework3.Car" target="by.academy.homework3.ICar">
+      <point x="58.1875" y="-178.5" />
+      <point x="539.6875" y="483.0" />
+      <point x="840.5" y="483.0" />
+      <point x="-42.0" y="37.5" />
+    </edge>
+    <edge source="by.academy.homework3.Garage" target="by.academy.homework3.ICar">
+      <point x="0.0" y="-37.5" />
+      <point x="951.9510869565217" y="483.0" />
+      <point x="924.5" y="483.0" />
+      <point x="42.0" y="37.5" />
+    </edge>
+    <edge source="by.academy.homework3.Car" target="by.academy.homework3.ILock">
+      <point x="41.5625" y="-178.5" />
+      <point x="523.0625" y="473.0" />
+      <point x="809.0" y="473.0" />
+      <point x="809.0" y="127.0" />
+      <point x="737.1494565217391" y="127.0" />
+      <point x="16.625" y="48.5" />
+    </edge>
+    <edge source="by.academy.homework3.Lock" target="by.academy.homework3.ILock">
+      <point x="0.0" y="-37.5" />
+      <point x="522.25" y="117.0" />
+      <point x="670.6494565217391" y="117.0" />
+      <point x="-49.875" y="48.5" />
+    </edge>
+    <edge source="by.academy.homework3.Human" target="by.academy.homework3.ILock">
+      <point x="32.25" y="-135.5" />
+      <point x="935.75" y="890.0" />
+      <point x="1028.9510869565217" y="890.0" />
+      <point x="1028.9510869565217" y="117.0" />
+      <point x="770.3994565217391" y="117.0" />
+      <point x="49.875" y="48.5" />
+    </edge>
+    <edge source="by.academy.homework3.Human" target="by.academy.homework3.Garage">
+      <point x="10.75" y="-135.5" />
+      <point x="914.25" y="880.0" />
+      <point x="951.9510869565217" y="880.0" />
+      <point x="0.0" y="37.5" />
+    </edge>
+    <edge source="by.academy.homework3.Human" target="by.academy.homework3.ICar">
+      <point x="-10.75" y="-135.5" />
+      <point x="892.75" y="880.0" />
+      <point x="874.9510869565217" y="880.0" />
+      <point x="874.9510869565217" y="483.0" />
+      <point x="882.5" y="483.0" />
+      <point x="0.0" y="37.5" />
+    </edge>
+    <edge source="by.academy.homework3.Door" target="by.academy.homework3.Lock">
+      <point x="-33.25" y="-69.5" />
+      <point x="526.75" y="252.0" />
+      <point x="522.25" y="252.0" />
+      <point x="0.0" y="37.5" />
+    </edge>
+    <edge source="by.academy.homework3.Human" target="by.academy.homework3.Passenger">
+      <point x="53.75" y="-135.5" />
+      <point x="957.25" y="900.0" />
+      <point x="1094.9510869565217" y="900.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="by.academy.homework3.Door" target="by.academy.homework3.ILock">
+      <point x="33.25" y="-69.5" />
+      <point x="593.25" y="252.0" />
+      <point x="597.75" y="252.0" />
+      <point x="597.75" y="127.0" />
+      <point x="703.8994565217391" y="127.0" />
+      <point x="-16.625" y="48.5" />
+    </edge>
+    <edge source="by.academy.homework3.Car" target="by.academy.homework3.Engine">
+      <point x="-24.9375" y="-178.5" />
+      <point x="456.56249999999994" y="463.0" />
+      <point x="236.49999999999994" y="463.0" />
+      <point x="0.0" y="80.5" />
+    </edge>
+    <edge source="by.academy.homework3.Tank" target="by.academy.homework3.ITank">
+      <point x="0.0" y="-26.5" />
+      <point x="75.0" y="252.0" />
+      <point x="111.27445652173913" y="252.0" />
+      <point x="-16.125" y="37.5" />
+    </edge>
+    <edge source="by.academy.homework3.Engine" target="by.academy.homework3.ITank">
+      <point x="0.0" y="-80.5" />
+      <point x="236.49999999999994" y="252.0" />
+      <point x="175.77445652173913" y="252.0" />
+      <point x="48.375" y="37.5" />
+    </edge>
+    <edge source="by.academy.homework3.Car" target="by.academy.homework3.Wheel">
+      <point x="-8.3125" y="-178.5" />
+      <point x="473.18749999999994" y="453.0" />
+      <point x="402.99999999999994" y="453.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="by.academy.homework3.Human" target="by.academy.homework3.ITank">
+      <point x="-53.75" y="-135.5" />
+      <point x="849.75" y="900.0" />
+      <point x="0.0" y="900.0" />
+      <point x="0.0" y="242.0" />
+      <point x="79.02445652173913" y="242.0" />
+      <point x="-48.375" y="37.5" />
+    </edge>
+    <edge source="by.academy.homework3.Human" target="by.academy.homework3.Car">
+      <point x="-32.25" y="-135.5" />
+      <point x="871.25" y="890.0" />
+      <point x="481.49999999999994" y="890.0" />
+      <point x="0.0" y="178.5" />
+    </edge>
+    <edge source="by.academy.homework3.Car" target="by.academy.homework3.ITank">
+      <point x="-41.5625" y="-178.5" />
+      <point x="439.93749999999994" y="473.0" />
+      <point x="149.99999999999994" y="473.0" />
+      <point x="149.99999999999994" y="252.0" />
+      <point x="143.52445652173913" y="252.0" />
+      <point x="16.125" y="37.5" />
+    </edge>
+    <edge source="by.academy.homework3.Car" target="by.academy.homework3.Tank">
+      <point x="-58.1875" y="-178.5" />
+      <point x="423.31249999999994" y="483.0" />
+      <point x="75.0" y="483.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="by.academy.homework3.Car" target="by.academy.homework3.Door">
+      <point x="8.3125" y="-178.5" />
+      <point x="489.81249999999994" y="453.0" />
+      <point x="560.0" y="453.0" />
+      <point x="0.0" y="69.5" />
+    </edge>
+    <edge source="by.academy.homework3.Car" target="by.academy.homework3.Seat">
+      <point x="24.9375" y="-178.5" />
+      <point x="506.43749999999994" y="463.0" />
+      <point x="722.5" y="463.0" />
+      <point x="0.0" y="37.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="579.8611111111111" y="453.80952380952374" />
+  <SelectedNodes>
+    <node>by.academy.homework3.Passenger</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Properties</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
