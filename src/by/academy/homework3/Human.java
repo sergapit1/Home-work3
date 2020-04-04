@@ -20,13 +20,15 @@ public class Human implements ICar , ILock, ITank{
     }
 
     @Override
-    public void open() {
+    public boolean open() {
 
+        return true;
     }
 
     @Override
-    public void close() {
+    public boolean close() {
 
+        return false;
     }
 
     @Override
