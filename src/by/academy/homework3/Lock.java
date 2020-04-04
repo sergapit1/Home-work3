@@ -13,4 +13,9 @@ public class Lock implements ILock{
 
         return false;
     }
+
+    @Override
+    public void checkKey() {
+
+    }
 }
